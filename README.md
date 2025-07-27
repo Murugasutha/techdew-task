@@ -52,17 +52,31 @@ Directory structure:
 ```
 ---
 
-## 🖼️ Screenshot
+## 🖼️ Screenshot Previews
 
-Here is a preview of the Product Listing Page:
+Below are a few screenshots showcasing key pages of the application:
 
-![ProductListing Page Screenshot](./techdrew-task/screenshots/ProductListing-light.png)
-![ProductListing Page Screenshot](./techdrew-task/screenshots/ProductListing-dark.png)
+### 🏠 Product Page
+![Home Page](./screenshots/ProductListing-light.png)
+![Home Page](./screenshots/ProductListing-dark.png)
 
-Product Detail Page
+### 📄 Product Details Page
+![Product Details](./screenshots/ProductDetail-light.png)
+![Product Details](./screenshots/productDetail-dark.png)
 
-![Product Detail Page Screenshot](./techdrew-task/screenshots/ProductDetail-light.png)
-![Product Detail Page Screenshot](./techdrew-task/screenshots/ProductDetail-dark.png)
+### 🛒 Cart Page
+![Cart Page](./screenshots/Cart-light.png)
+![Cart Page](./screenshots/Cart-dark.png)
+
+### 💳 Buy Now Page
+![Buy Now Page](./screenshots/BuyNow-light.png)
+![Buy Now Page](./screenshots/BuyNow-dark.png)
+
+## Invoice
+![Invoice](./screenshots/invoiceLight.png)
+![Invoice](./screenshots/invoiceDark.png)
+
+---
 
 ## 🔧 Getting Started
 
