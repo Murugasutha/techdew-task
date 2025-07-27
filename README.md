@@ -50,9 +50,19 @@ Directory structure:
             └── home.js
 
 ```
-
-
 ---
+
+## 🖼️ Screenshot
+
+Here is a preview of the Product Listing Page:
+
+![ProductListing Page Screenshot](./techdrew-task/screenshots/ProductListing-light.png)
+![ProductListing Page Screenshot](./techdrew-task/screenshots/ProductListing-dark.png)
+
+Product Detail Page
+
+![Product Detail Page Screenshot](./techdrew-task/screenshots/ProductDetail-light.png)
+![Product Detail Page Screenshot](./techdrew-task/screenshots/ProductDetail-dark.png)
 
 ## 🔧 Getting Started
 
