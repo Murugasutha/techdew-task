@@ -669,7 +669,8 @@ html[data-theme="dark"] .product-buttons .buyBtn:hover {
 
 /* Cart page dark mode */
 
-html[data-theme="dark"] .cart-item, .product-details {
+html[data-theme="dark"] .cart-item, 
+html[data-theme="dark"] .product-details {
   background-color: #1e1e1e;
   border-color: #333;
 }
