@@ -32,7 +32,7 @@ function ProductDetail(product){
                 <p class="price">₹${product.price}</p>
                 <div class="product-buttons">
                     <button class="addCardBtn" data-id="${product.id}">Add to Cart</button>
-                    <a href="#/buy-now#${product.id}" class="buyBtnLink">Buy Now</a>
+                    <a href="/buy-now#${product.id}" class="buyBtnLink">Buy Now</a>
                 </div>
 
             </div>

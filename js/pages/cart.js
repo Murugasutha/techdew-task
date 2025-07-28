@@ -15,7 +15,7 @@ function displayCart(item) {
             <p>Price: ₹${item.price}</p>
         </div>
         <div id="cart-summary" class="cart-summary">
-            <a href="#/buy-now#${item.id}" class="buyBtnLink">Buy Now</a>
+            <a href="/buy-now#${item.id}" class="buyBtnLink">Buy Now</a>
         </div>
 
         <button class="removeBtn" data-id="${item.id}">Remove</button>
