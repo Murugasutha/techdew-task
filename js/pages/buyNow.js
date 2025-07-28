@@ -2,14 +2,12 @@ import { products } from "../data/products.js";
 
 function getId(){
     const hash = window.location.hash.replace("#","").trim();
-    console.log(hash)
     return Number(hash)
 }
 
 function getProduct(){
     const productId = getId()
     const product = products.find((product) => productId === product.id)
-    console.log(product)
     return product;
 }
 
@@ -58,8 +56,6 @@ function productInvoice() {
     </div>
   `;
 }
-
-console.log(document.getElementById("#step4")); // replace with actual ID
 
 
 function completePurchase() {
