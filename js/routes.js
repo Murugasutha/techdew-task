@@ -7,7 +7,7 @@ import buyNow from "./pages/buyNow.js"
 const router = new AtomRouter({rootid: "app", debug: false})
 
 router.add([
-    {url: "/teckdew-task/", handler: home},
+    {url: "/teckdew-task", handler: home},
     {url:"/productDetails", handler: details},
     {url: "/cart-items", handler: cart},
     {url: "/buy-now", handler: buyNow},
