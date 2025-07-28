@@ -50,7 +50,31 @@ Directory structure:
             └── home.js
 
 ```
+---
 
+## 🖼️ Screenshot Previews
+
+Below are a few screenshots showcasing key pages of the application:
+
+### 🏠 Product Page
+![Home Page](./screenshots/ProductListing-light.png)
+![Home Page](./screenshots/ProductListing-dark.png)
+
+### 📄 Product Details Page
+![Product Details](./screenshots/ProductDetail-light.png)
+![Product Details](./screenshots/productDetail-dark.png)
+
+### 🛒 Cart Page
+![Cart Page](./screenshots/Cart-light.png)
+![Cart Page](./screenshots/Cart-dark.png)
+
+### 💳 Buy Now Page
+![Buy Now Page](./screenshots/BuyNow-light.png)
+![Buy Now Page](./screenshots/BuyNow-dark.png)
+
+## Invoice
+![Invoice](./screenshots/invoiceLight.png)
+![Invoice](./screenshots/invoiceDark.png)
 
 ---
 
@@ -84,20 +108,33 @@ Right-click index.html > "Open with Live Server"
 
 ---
 
-### 📌 Known Limitations
-- No backend or database — all data is stored in-memory or localStorage.
-- Cart quantity and stock logic are not enforced.
-- Buy Now flow is a simulation — does not store actual orders.
+## 🧠 How It Works (Code Overview)
+
+- `js/lib/atom-router.js`: Handles client‑side URL routing and dynamic rendering without page reloads.
+- `js/lib/theme-switcher.js`: Detects stored/theme preference and toggles dark/light mode.
+- `js/events/addToCartEvent.js` & `updateCardBadge.js`: Manage cart actions and update cart badge dynamically.
+- `js/data/products.js`: Mock data defining product listings used throughout the app.
+- `js/pages/*.js`: Each page exports a `render()` function:
+  - `home.js`: Renders product cards and integrates add‑to‑cart buttons.
+  - `details.js`: Displays individual product details and cart/buy options.
+  - `cart.js`: Shows cart items, total price, and remove button logic.
+  - `buyNow.js`: Implements multi-step checkout UI with validation and confirmation.
 
 ---
 
-### 🧑‍💻 Author
-Sutha Kailasam
-Frontend Developer
+## 📌 Known Limitations
+- No actual payment backend or order persistence — checkout is simulated.
+- Cart does **not support quantity adjustments**.
+- No product search or filtering implemented yet.
+- Alerts are basic (`alert()`), could be enhanced with custom UI/toast notifications.
 
 ---
 
-### 📄 License
-This project is open-source and available under the MIT License.
+## 🔗 Repository & Contact
 
----
+- Repository: [Techdew Task by Murugasutha](https://github.com/Murugasutha/techdew-task)
+- Portfolio: [Guess who 👀](https://sutha-portfolio.vercel.app/)
+
+Feel free to reach out for any clarifications. Thanks for reviewing my work!  
+
+_— Sutha Kailasam_
